@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Muli', sans-serif;
+}
+
+::selection {
+    color: #ff0090;
+    background: #fff;
+}
+    
+.entire-container {
+    background: #fff;
+}
+
+.entire-container main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.entire-container header h2 {
+    padding: 0.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.4em;
+    color: #ff0090;
+}
+
+.entire-container .jokes-container {
+    background: #fff;
+    padding: 1.5em;
+   /*  width: 20em; */
+    /* height: 8em; */
+    background: #ff0090;
+    color: #fff;
+    border-radius: 0.6em;
+    box-shadow: 0 0 0 #ff40a8;
+    margin: .5em;
+}
+
+.entire-container .jokes-container .jokes {
+    font-size:  2.2em;
+}
+
+.entire-container .jokes-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #ff0090;
+    padding: 0.8em;
+    font-size: 1.2em;
+    text-align: center;
+    margin: .7em auto .1em auto;
+    border-radius: .4em;
+    outline: none;
+}
+
+footer {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > li {
+    list-style: none;
+    margin: 1.2rem;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li > a {
+    color: #ff0090;
+    font-size: 1.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+footer > li a:hover {
+    font-size: 2.3rem;
+ }
